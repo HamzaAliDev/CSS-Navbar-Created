@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header , footer {
+    background-color: #041832;
+    text-align: center;
+}
+header nav a{
+    display: inline-block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+header nav a:hover{
+    background-color: #334966;
+    color:#041832
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    min-height: calc(100vh - 76px);
+    background-color: beige;
+}
+h3{
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+footer{
+    color: white;
+    padding: 8px 0px;
+}
